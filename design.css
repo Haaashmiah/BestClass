@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: 'Akhbar MT', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f8f9fa;
+}
+
+/* Sidebar Navigation */
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 220px;
+    background: linear-gradient(180deg, #ffafcc, #ffdde1);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 240px;
+    padding: 20px;
+    width: calc(100% - 240px);
+}
+
+/* Section Styles */
+.Main, .possitive, .negative, .wrongs, .Events, .real, .callus {
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Main {
+    background-color: #d8b4fe;
+    text-align: center;
+}
+
+.possitive {
+    background-color: #a2d2ff;
+}
+
+.negative {
+    background-color: #ffb3c1;
+}
+
+.wrongs {
+    background-color: #f9c74f;
+}
+
+.Events {
+    background-color: #6930c3;
+    color: white;
+}
+
+.real {
+    background-color: #ff6b6b;
+    color: white;
+    text-align: center;
+}
+
+.callus {
+    background-color: #cdb4db;
+    text-align: center;
+}
+
+/* Typography */
+h1, h2 {
+    background: none;
+    color: #333;
+}
+
+p {
+    color: #222;
+    background: none;
+}
